@@ -1,0 +1,9 @@
+appConfig:
+  appName: user-service
+  version: 0.0.1
+  env : dev
+  address: 127.0.0.1
+  grpcPort: 5601
+  httpPort: 5600
+  etcdAddress:
+    - 127.0.0.1:2379

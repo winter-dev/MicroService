@@ -1,0 +1,9 @@
+appConfig:
+  appName: order-service
+  version: 0.0.1
+  env : dev
+  address: 127.0.0.1
+  grpcPort: 5501
+  httpPort: 5500
+  etcdAddress:
+    - 127.0.0.1:2379
